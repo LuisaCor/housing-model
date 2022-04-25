@@ -33,7 +33,7 @@ typology from 2011 [^2] and supplemented by energetic modernisation [^3] and new
 
 
 
-[^1]: [Link](https://www-genesis.destatis.de/genesis/online?operation=table&code=12421-0001&bypass=true&levelindex=0&levelid=1643115777925#abreadcrumb)
-[^2]: [Link](https://www.iwu.de/fileadmin/user_upload/dateien/energie/klima_altbau/ Fl%C3%A4chen_Geb%C3%A4udetypologie_Okt_2013.pdf)
-[^3]:[Link](https://www.iwu.de/fileadmin/publikationen/gebaeudebestand/2018_IWU_CischinskyEtDiefenbach_Datenerhebung-Wohngeb%C3%A4udebestand-2016.pdf)
-[^4]: [Link](https://www.iwu.de/fileadmin/tools/tabula/TABULA-Analyses_DE-Typology_DataTables.zip)
+[^1]: [Link](https://www-genesis.destatis.de/genesis/online?operation=table&code=12421-0001&bypass=true&levelindex=0&levelid=1643115777925#abreadcrumb "German Demographic Developement")
+[^2]: [Link](https://www.iwu.de/fileadmin/user_upload/dateien/energie/klima_altbau/Fl%C3%A4chen_Geb%C3%A4udetypologie_Okt_2013.pdf "Weighted building typologiy from 2011")
+[^3]:[Link](https://www.iwu.de/fileadmin/publikationen/gebaeudebestand/2018_IWU_CischinskyEtDiefenbach_Datenerhebung-Wohngeb%C3%A4udebestand-2016.pdf "Energetic Modernisation")
+[^4]: [Link](https://www.iwu.de/fileadmin/tools/tabula/TABULA-Analyses_DE-Typology_DataTables.zip "Tabula data table")
