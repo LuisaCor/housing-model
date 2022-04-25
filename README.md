@@ -2,9 +2,9 @@
 - Make sure that you have `python >= 3.6` installed. To see your python version, open your terminal and type: `python --version`
 - navigate with your terminal to the cloned folder. E.g. `cd ~/housing-model/`
 - choose one of the following possibilities to install the needed requirements
-- To install the needed librarys, either type: `pip3 install -r requirements.txt`
-- or, if you prefer anaconda, type: `conda install --file requirements.txt` in your terminal. 
-- Or, as third possibility, you can install the given librarys from requirements.txt directly from your packagemanager. With ubuntu, this should do the trick:`sudo apt install < requirements.txt`
+    - To install the needed librarys, either type: `pip3 install -r requirements.txt`
+    - or, if you prefer anaconda, type: `conda install --file requirements.txt` in your terminal. 
+    - Or, as third possibility, you can install the given librarys from requirements.txt directly from your packagemanager. With ubuntu, this should do the trick:`sudo apt install < requirements.txt`
 
 # Inputs
 The inputs can be finetuned and changed. You will find all inputs inside the input-folder.
