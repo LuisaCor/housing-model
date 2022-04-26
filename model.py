@@ -432,7 +432,7 @@ def plot_heat_demand(df_heat_demand, years, save_path, current_scen):
     plt.xlabel('years')
     plt.ylabel('space heat need in kwh')
     plt.savefig(os.path.join(save_path, title))
-    plt.show()
+    # plt.show()
 
     # Raumwärme und Warmwasser bedarf
     # total_sh_need = df_heat_demand['total_sh_need']
@@ -453,7 +453,7 @@ def plot_heat_demand(df_heat_demand, years, save_path, current_scen):
     plt.xlabel('years')
     plt.ylabel('space heat need in kwh')
     plt.savefig(os.path.join(save_path, title))
-    plt.show()
+    # plt.show()
 
     # Raumwärmebedarf und spezifischer Wärmebedarf
     total_sh_need = list(df_heat_demand['total_sh_need'])
@@ -481,7 +481,7 @@ def plot_heat_demand(df_heat_demand, years, save_path, current_scen):
     fig.tight_layout()
     plt.legend()
     plt.savefig(os.path.join(save_path, title))
-    plt.show()
+    # plt.show()
 
     #   Wärmebedarf
     plt.figure(3)
@@ -522,7 +522,7 @@ def plot_heat_demand(df_heat_demand, years, save_path, current_scen):
 
     # plt.legend()
     plt.savefig(os.path.join(save_path, title))
-    plt.show()
+    # plt.show()
 
     # Plot 2: Wärmebedarf nach EFH, RH, MFH und Ab
 
@@ -569,7 +569,7 @@ def plot_scenarios(scen_paths, chosen_scenarios, output_folder, bev):
     ax1.set_ylim(0, max(max_ls) + offset)
     ax1.legend()
     plt.savefig(save_to(title))
-    plt.show()
+    # plt.show()
 
     fig, ax1 = plt.subplots()
     title = set_title('Comparison of per capita living space')
@@ -591,7 +591,7 @@ def plot_scenarios(scen_paths, chosen_scenarios, output_folder, bev):
     ax1.set_ylim(0, max(max_ls) + offset)
     ax1.legend()
     plt.savefig(save_to(title))
-    plt.show()
+    # plt.show()
 
     # comparison plot of average space heat scenario-wise
     fig, ax1 = plt.subplots()
@@ -643,14 +643,14 @@ def plot_scenarios(scen_paths, chosen_scenarios, output_folder, bev):
     ax2 = ax1.twinx()  # instantiate a second axes that shares the x-axis
     plot_specific(ax2)
     plt.savefig(save_to(title))
-    plt.show()
+    # plt.show()
 
     fig, ax1 = plt.subplots()
     title = set_title('Specific heat demand comparison')
     plt.title(title)
     plot_specific(ax1)
     plt.savefig(save_to(title))
-    plt.show()
+    # plt.show()
 
 
 def housing_model(df_tabula, df_share_buildings, dist_buildings, params,
@@ -724,7 +724,7 @@ def housing_model(df_tabula, df_share_buildings, dist_buildings, params,
     df_heat_demand.to_excel(os.path.join(save_path, 'heat_demand_dev.xlsx'))
     # cols = ['space_heat_need'] + all_ls
     # df_tab = df_tab_years[cols]
-    # df_tab.to_excel(os.path.join(save_path, 'luisa_check.xlsx'))
+    # df_tabf.to_excel(os.path.join(save_path, 'luisa_check.xlsx'))
     plot_heat_demand(df_heat_demand, years, save_path, current_scen)
     # TODO: check if spec_rest_area < wohnfläche - dann so wie bisher
     # else: wenn eine oder nicht alle > wohnfläche: dann umverteilen auf
